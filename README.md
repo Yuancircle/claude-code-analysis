@@ -6,7 +6,7 @@
 
 ## 📚 文档说明
 
-本项目包含对 [Claude Code](https://github.com/anthropics/claude-code) 项目的完整源码分析，涵盖：
+本文档是对 [Claude Code](https://github.com/anthropics/claude-code) 项目的完整源码分析，涵盖：
 
 - **Harness 架构** - 本地运行时外壳设计
 - **TAOR 循环** - Think-Act-Observe-Repeat 核心引擎
@@ -19,21 +19,9 @@
 
 ---
 
-## 📁 文件结构
+## 📄 文件
 
-```
-claude-code-analysis/
-├── README.md                    # 本文档
-├── ClaudeCode 深度源码分析 - 最终版 v20.md  # 主文档（162KB，6616 行）
-├── reports/                     # 验证报告
-│   ├── 文件级别覆盖率验证报告.md
-│   ├── 外部验证报告.md
-│   └── v20-final-validation-report.md
-└── traversal-records/           # 遍历记录
-    ├── v20-commands-完整文件遍历记录.md
-    ├── v20-services-完整文件遍历记录.md
-    └── v20-utils-完整文件遍历记录.md
-```
+- **ClaudeCode 深度源码分析 - 最终版 v20.md**（162KB，6616 行）
 
 ---
 
@@ -88,27 +76,10 @@ claude-code-analysis/
 
 ---
 
-## 📝 版本历史
-
-| 版本 | 日期 | 说明 |
-|------|------|------|
-| v20 | 2026-04-02 | 最终版，162KB，6616 行 |
-| v19 | 2026-04-02 | 准终版，124KB |
-| v14 | 2026-04-01 | 第一版完整分析，97KB |
-
----
-
 ## 📖 阅读建议
 
 1. **快速了解** → 阅读本 README
 2. **深入理解** → 阅读 `ClaudeCode 深度源码分析 - 最终版 v20.md`
-3. **验证细节** → 查看 `reports/` 目录下的验证报告
-
----
-
-## 📄 许可证
-
-本文档基于开源项目 Claude Code 分析生成，遵循相同的使用条款。
 
 ---
 
